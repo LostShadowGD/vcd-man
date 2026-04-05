@@ -24,9 +24,9 @@ if [[ $VersionChoice == 1 ]]; then
     rm -f "MacPorts-2.12.4-10.13-HighSierra.pkg"
 elif [[ $VersionChoice == 2 ]]; then
     echo "10.14 Mojave selected, installing MacPorts"
-    curl -O -L "https://github.com/macports/macports-base/releases/download/v2.12.4/MacPorts-2.12.4-10.14-HighSierra.pkg"
-    sudo installer -pkg "MacPorts-2.12.4-10.14-HighSierra.pkg" -target / -verbose
-    rm -f "MacPorts-2.12.4-10.14-HighSierra.pkg"
+    curl -O -L "https://github.com/macports/macports-base/releases/download/v2.12.4/MacPorts-2.12.4-10.14-Mojave.pkg"
+    sudo installer -pkg "MacPorts-2.12.4-10.14-Mojave.pkg" -target / -verbose
+    rm -f "MacPorts-2.12.4-10.14-Mojave.pkg"
 else
     echo "Invalid input. You need to enter the number in the [] brackets associated with your macOS version."
     exit 0

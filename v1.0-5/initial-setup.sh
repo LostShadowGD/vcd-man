@@ -18,12 +18,12 @@ read VersionChoice
 echo ""
 
 if [[ $VersionChoice == 1 ]]; then
-    echo "10.15 Catalina selected, installing MacPorts"
+    echo "10.13 High Sierra selected, installing MacPorts"
     curl -O -L "https://github.com/macports/macports-base/releases/download/v2.12.4/MacPorts-2.12.4-10.13-HighSierra.pkg.pkg"
     sudo installer -pkg "MacPorts-2.12.4-10.13-HighSierra.pkg" -target / -verbose
     rm -f "MacPorts-2.12.4-10.13-HighSierra.pkg"
 elif [[ $VersionChoice == 2 ]]; then
-    echo "11 Big Sur selected, installing MacPorts"
+    echo "10.14 Mojave selected, installing MacPorts"
     curl -O -L "https://github.com/macports/macports-base/releases/download/v2.12.4/MacPorts-2.12.4-10.14-HighSierra.pkg"
     sudo installer -pkg "MacPorts-2.12.4-10.14-HighSierra.pkg" -target / -verbose
     rm -f "MacPorts-2.12.4-10.14-HighSierra.pkg"

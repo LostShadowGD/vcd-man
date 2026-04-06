@@ -12,3 +12,6 @@ After downloading the correct .zip, unzip it, open your Terminal and type `sh ` 
 
 > [!TIP]
 > When it asks for your macOS version, type the number in `[]` next to your version, not the version itself.
+
+## Known Issues
+- In the PyQt5 version (legacy), the `Create VideoCD of File` button is not blue until you click off the window and back on. This is not an issue in the PyQt6 version (main).

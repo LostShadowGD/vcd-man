@@ -7,6 +7,5 @@ If you're running macOS 10.13 or 10.14, download "v1.0-5.zip" (legacy) and if yo
 
 [Download Page](https://github.com/LostShadowGD/vcd-man/releases/latest)
 
-## Installation
+## Installation
 After downloading the correct .zip, unzip it, open your Terminal and type `sh ` (including the space at the end), then drag the "initial-setup.sh" file into the Terminal window. Press enter, then follow the onscreen instructions.
-[!TIP] When it asks for your macOS version, type the number in `[]` next to your version, not the version itself.
